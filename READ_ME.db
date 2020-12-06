@@ -1,0 +1,8 @@
+This script is used to parse out a number from a line of text and add it to a list.
+This list will be sorted out to only contain unique numbers
+The purpose of this is to run a NOKIA log and parse out the services that took a hit.
+
+Test line 1: November 3rd we went to the mall
+Test line 2: SDP Tunnel 1345 went down
+Test line 3: BGP Neighbor went down
+Test line 4: Interface ge 3/4 went down
