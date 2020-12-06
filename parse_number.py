@@ -11,9 +11,9 @@ for line in f:
     print(f"{line_number}: {line}")
     for word in line.split():
         if word.isdigit():
-            print(f"{line_number}: {word}")
+            print(f"\t{line_number}: {word}")
             test_list.append(word)
-        line_number += 1
+    line_number += 1
 
 
 test_list = set(test_list)
